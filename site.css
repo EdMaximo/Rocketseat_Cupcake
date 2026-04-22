@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+body {
+  background-image: url(/assets/Página\ de\ receita.jpg);
+  background-size: cover;
+}
+
+:root {
+  font-family: "Alice", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+#page {
+  box-sizing: border-box;
+  width: 800px;
+  padding: 24px;
+  background-color: #F0E8C2;
+  border-radius: 24px;
+  margin: 48px auto 28px;
+}
+
+img {
+  border-radius: 16px;
+}
+
+.main {
+  padding: 24px;
+}
+
+h1 {
+  line-height: 140%;
+  font-size: 40px;
+  border-top: 2px solid black;
+  padding: 6px;
+  margin-bottom: 4px;
+}
+
+h2 {
+  border-top: 2px solid black;
+  font-size: 24px;
+  padding: 9px;
+
+}
+
+section + section {
+  margin-top: 24px;
+}
+
+#about p + p {
+  margin-top: 12px;
+}
+
+.ul {
+  padding-left: 24px;
+}
+
+footer{
+  color: #F0E8C2;
+  text-align: center;
+  padding-bottom: 48px;
+
+}
+
+footer img{
+  vertical-align: middle;
+}
